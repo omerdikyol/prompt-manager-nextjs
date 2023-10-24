@@ -1,3 +1,5 @@
+import Feed from "@components/Feed";
+
 const Home = () => {
   return (
     <section className="w-full flex-center flex-col">
@@ -9,6 +11,9 @@ const Home = () => {
       <p className="desc text-center">
         Prompt Manager is a community-driven platform for sharing and discovering AI prompts.
       </p>
+
+      <Feed />
+
     </section>
   )
 }
